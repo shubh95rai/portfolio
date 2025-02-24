@@ -13,6 +13,7 @@ dist-ssr
 *.local
 .env
 favicon_io
+public/Shubham Rai - Resume.pdf
 
 # Editor directories and files
 .vscode/*
