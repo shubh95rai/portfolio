@@ -1,3 +1,4 @@
+import AnimatedComponent from "../AnimatedComponent";
 
 export default function About() {
   const skills = [
@@ -5,8 +6,8 @@ export default function About() {
     "CSS",
     "JavaScript",
     "TypeScript",
-    "React.js",
     "Next.js",
+    "React.js",
     "Redux Toolkit",
     "Tailwind CSS",
     "Bootstrap",
@@ -22,7 +23,7 @@ export default function About() {
       id="about"
       className="flex min-h-screen items-center justify-center px-4 py-20"
     >
-    
+      <AnimatedComponent>
         <div className="max-w-5xl">
           <h2 className="mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-center text-3xl font-bold text-transparent">
             About Me
@@ -76,7 +77,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      
+      </AnimatedComponent>
     </section>
   );
 }
