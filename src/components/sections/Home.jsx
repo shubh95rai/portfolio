@@ -23,12 +23,10 @@ export default function Home() {
           <div className="xs:flex-row xs:justify-center flex flex-col items-center gap-4">
             <a
               href="#projects"
-              className="rounded border border-blue-500/50 px-6 py-3 font-medium text-blue-500 transition-all hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
+              className="flex items-center gap-2 rounded border border-blue-500/50 px-6 py-3 font-medium text-blue-500 transition-all hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]"
             >
-              <button className="flex items-center gap-2">
-                <FolderOpen size={18} />
-                View Projects
-              </button>
+              <FolderOpen size={18} />
+              View Projects
             </a>
 
             {/* <a
