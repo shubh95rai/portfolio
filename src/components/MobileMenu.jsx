@@ -1,7 +1,7 @@
 export default function MobileMenu({ menuOpen, setMenuOpen }) {
   return (
     <div
-      className={`fixed top-0 z-40 flex w-full flex-col items-center justify-center bg-[rgba(10,10,10,0.5)] backdrop-blur-md transition-all duration-300 ease-in-out ${menuOpen ? "pointer-events-auto h-screen opacity-100" : "pointer-events-none h-0 opacity-0"}`}
+      className={`fixed top-0 z-40 flex w-full flex-col items-center justify-center bg-[rgba(10,10,10,0.9)] backdrop-blur-xs transition-all duration-300 ease-in-out ${menuOpen ? "pointer-events-auto h-screen opacity-100" : "pointer-events-none h-0 opacity-0"}`}
     >
       <button
         onClick={() => {
@@ -14,7 +14,7 @@ export default function MobileMenu({ menuOpen, setMenuOpen }) {
       </button>
 
       <div
-        className={`flex flex-col items-center gap-8 text-2xl font-semibold *:my-4 *:text-gray-300 *:transition-all *:duration-300 *:hover:text-white ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-5 opacity-0"}`}
+        className={`flex flex-col items-center gap-4 text-2xl font-semibold *:my-4 *:text-gray-300 *:transition-all *:duration-300 *:hover:text-white ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-5 opacity-0"}`}
       >
         <a
           href="#home"
