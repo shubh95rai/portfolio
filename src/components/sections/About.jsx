@@ -13,9 +13,14 @@ export default function About() {
     "Bootstrap",
     "Auth.js",
     "MongoDB",
+    "Prisma",
     "Git",
     "GitHub",
     "Rest APIs",
+    "Zod",
+    "React Hook Form",
+    "Shadcn UI",
+    "Framer Motion",
   ];
 
   return (
