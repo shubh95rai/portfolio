@@ -13,6 +13,8 @@ export default function Projects() {
           </h2>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {/* Project 1 */}
+
             <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
               <div>
                 <h3 className="mb-2 text-xl font-bold">Instagram Clone</h3>
@@ -56,6 +58,8 @@ export default function Projects() {
                 </a>
               </div>
             </div>
+
+            {/* Project 2 */}
 
             <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
               <div>
@@ -101,6 +105,8 @@ export default function Projects() {
               </div>
             </div>
 
+            {/* Project 3 */}
+
             <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
               <div>
                 <h3 className="mb-2 text-xl font-bold">Quiz App</h3>
@@ -143,34 +149,113 @@ export default function Projects() {
               </div>
             </div>
 
+            {/* Project 4 */}
+
             <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
               <div>
                 <h3 className="mb-2 text-xl font-bold">E-Commerce Store</h3>
                 <p className="mb-4 text-gray-400">
-                  Featuring a dynamic shopping cart, product listing, and
-                  seamless state management. Provides a smooth and efficient
-                  shopping experience.
+                  Utilizes an external API to fetch and display product data.
+                  Implements Redux Toolkit for centralized state management and
+                  React Router for smooth multi-page navigation across product
+                  listings and cart.
                 </p>
 
                 <div className="mb-4 flex flex-wrap gap-2">
-                  {["React.js", "Redux Toolkit", "Tailwind CSS"].map(
-                    (tech, key) => {
-                      return (
-                        <span
-                          key={key}
-                          className="cursor-default rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-500"
-                        >
-                          {tech}
-                        </span>
-                      );
-                    },
-                  )}
+                  {[
+                    "React.js",
+                    "Redux Toolkit",
+                    "Tailwind CSS",
+                    "React Router",
+                    "Rest API",
+                  ].map((tech, key) => {
+                    return (
+                      <span
+                        key={key}
+                        className="cursor-default rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-500"
+                      >
+                        {tech}
+                      </span>
+                    );
+                  })}
                 </div>
               </div>
 
               <div>
                 <a
                   href="https://e-commerce-rtk-95.netlify.app/"
+                  target="_blank"
+                  className="text-blue-500 transition-all hover:scale-90 hover:text-blue-400"
+                >
+                  View Project &rarr;
+                </a>
+              </div>
+            </div>
+
+            {/* Project 5 */}
+
+            <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
+              <div>
+                <h3 className="mb-2 text-xl font-bold">Todo List</h3>
+                <p className="mb-4 text-gray-400">
+                  Enables users to Create, Read, Update, and Delete todo items,
+                  providing comprehensive task management capabilities. Utilizes
+                  local storage to save and retrieve todo items, ensuring data
+                  persistence across sessions.
+                </p>
+
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {["React.js", "Tailwind CSS"].map((tech, key) => {
+                    return (
+                      <span
+                        key={key}
+                        className="cursor-default rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-500"
+                      >
+                        {tech}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <a
+                  href="https://todo-list-react-95.netlify.app/"
+                  target="_blank"
+                  className="text-blue-500 transition-all hover:scale-90 hover:text-blue-400"
+                >
+                  View Project &rarr;
+                </a>
+              </div>
+            </div>
+
+            {/* Project 6 */}
+
+            <div className="flex flex-col justify-between rounded-xl border border-white/10 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.5)]">
+              <div>
+                <h3 className="mb-2 text-xl font-bold">Weather App</h3>
+                <p className="mb-4 text-gray-400">
+                  Integrates a weather API (OpenWeatherMap) to fetch and display
+                  current weather conditions and forecasts in real time.
+                </p>
+
+                <div className="mb-4 flex flex-wrap gap-2">
+                  {["React.js", "Tailwind CSS", "Rest API"].map((tech, key) => {
+                    return (
+                      <span
+                        key={key}
+                        className="cursor-default rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-500"
+                      >
+                        {tech}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div>
+                <a
+                  href="https://weather-app-react-95.netlify.app/"
                   target="_blank"
                   className="text-blue-500 transition-all hover:scale-90 hover:text-blue-400"
                 >
