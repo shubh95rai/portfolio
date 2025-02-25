@@ -1,7 +1,7 @@
 export default function MobileMenu({ menuOpen, setMenuOpen }) {
   return (
     <div
-      className={`fixed top-0 z-40 flex w-full flex-col items-center justify-center bg-[rgba(10,10,10,0.9)] backdrop-blur-xs transition-all duration-300 ease-in-out ${menuOpen ? "pointer-events-auto h-screen opacity-100" : "pointer-events-none h-0 opacity-0"}`}
+      className={`fixed top-0 z-40 flex w-full flex-col items-center justify-center bg-[rgba(10,10,10,0.9)] transition-all duration-300 ease-in-out ${menuOpen ? "pointer-events-auto h-screen opacity-100" : "pointer-events-none h-0 opacity-0"}`}
     >
       <button
         onClick={() => {
