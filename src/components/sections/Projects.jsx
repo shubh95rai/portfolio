@@ -220,7 +220,7 @@ export default function Projects() {
 
               <div>
                 <a
-                  href="https://todo-list-react-95.netlify.app/"
+                  href="https://todo-list-reactjs-95.vercel.app/"
                   target="_blank"
                   className="text-blue-500 transition-all hover:scale-90 hover:text-blue-400"
                 >
@@ -236,7 +236,8 @@ export default function Projects() {
                 <h3 className="mb-2 text-xl font-bold">Weather App</h3>
                 <p className="mb-4 text-gray-400">
                   Integrates a weather API (OpenWeatherMap) to fetch and display
-                  current weather conditions and forecasts in real time.
+                  current weather conditions and forecasts in real time and
+                  Local Storage to save the last searched city for quick access.
                 </p>
 
                 <div className="mb-4 flex flex-wrap gap-2">
@@ -255,7 +256,7 @@ export default function Projects() {
 
               <div>
                 <a
-                  href="https://weather-app-react-95.netlify.app/"
+                  href="https://weather-app-reactjs-95.vercel.app/"
                   target="_blank"
                   className="text-blue-500 transition-all hover:scale-90 hover:text-blue-400"
                 >
